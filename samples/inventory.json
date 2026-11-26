@@ -1,0 +1,36 @@
+{
+  "endpoints": {
+    "drill": [
+      "desk-drill",
+      "notice-drill",
+      "lead-drill"
+    ],
+    "live": [
+      "desk-real",
+      "notice-real",
+      "lead-real"
+    ]
+  },
+  "snapshot": [
+    {
+      "ticket": "H-18",
+      "scope": "room-a",
+      "state": "open"
+    },
+    {
+      "ticket": "H-19",
+      "scope": "room-b",
+      "state": "assigned"
+    }
+  ],
+  "resources": [
+    {
+      "scope": "room-a",
+      "simultaneous_notices": 1
+    },
+    {
+      "scope": "room-b",
+      "simultaneous_notices": 2
+    }
+  ]
+}

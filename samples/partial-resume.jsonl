@@ -1,0 +1,8 @@
+{"at": 0, "kind": "run_start", "run": "shift-c", "team": "central", "snapshot": "default"}
+{"at": 1, "kind": "call", "run": "shift-c", "ticket": "H-18", "action": "assign", "operation": "r1", "endpoint": "notice-drill"}
+{"at": 2, "kind": "call", "run": "shift-c", "ticket": "H-18", "action": "assign", "operation": "r2", "endpoint": "notice-real"}
+{"at": 3, "kind": "supersede", "incident": "alert2", "supervisor": "team-lead", "scopes": ["room-a"]}
+{"at": 4, "kind": "call", "run": "shift-c", "ticket": "H-19", "action": "cancel", "operation": "r3", "endpoint": "desk-drill"}
+{"at": 5, "kind": "receipt", "run": "shift-c", "ticket": "H-18", "operation": "r1", "namespace": "drill", "endpoint": "notice-drill", "state": "cancelled"}
+{"at": 7, "kind": "handoff", "incident": "alert2", "ticket": "H-18", "scope": "room-a", "operation": "g7"}
+{"at": 8, "kind": "resume", "run": "shift-c", "from_run": "shift-c", "snapshot": "default", "same_run": true}

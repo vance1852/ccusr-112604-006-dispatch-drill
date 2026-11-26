@@ -1,0 +1,12 @@
+{"at": 0, "kind": "run_start", "run": "north-1", "team": "north", "snapshot": "default"}
+{"at": 1, "kind": "run_start", "run": "south-1", "team": "south", "snapshot": "default"}
+{"at": 2, "kind": "call", "run": "north-1", "ticket": "H-18", "action": "assign", "operation": "rep18", "endpoint": "desk-drill"}
+{"at": 3, "kind": "call", "run": "south-1", "ticket": "H-18", "action": "assign", "operation": "rep18", "endpoint": "desk-drill"}
+{"at": 4, "kind": "call", "run": "north-1", "ticket": "H-19", "action": "cancel", "operation": "rep19", "endpoint": "desk-drill"}
+{"at": 5, "kind": "supersede", "incident": "live5", "supervisor": "team-lead", "scopes": ["room-a"]}
+{"at": 6, "kind": "receipt", "run": "north-1", "ticket": "H-18", "operation": "rep18", "namespace": "drill", "endpoint": "desk-drill", "state": "done"}
+{"at": 7, "kind": "receipt", "run": "north-1", "ticket": "H-19", "operation": "rep19", "namespace": "drill", "endpoint": "desk-drill", "state": "done"}
+{"at": 8, "kind": "receipt", "run": null, "ticket": "H-18", "operation": "rep18", "namespace": "live", "endpoint": "lead-real", "state": "accepted"}
+{"at": 10, "kind": "handoff", "incident": "live5", "ticket": "H-18", "scope": "room-a", "operation": "rep18"}
+{"at": 12, "kind": "resume", "run": "north-2", "from_run": "north-1", "snapshot": "default", "same_run": false}
+{"at": 13, "kind": "receipt", "run": "south-1", "ticket": "H-18", "operation": "rep18", "namespace": "drill", "endpoint": "desk-drill", "state": "done"}
