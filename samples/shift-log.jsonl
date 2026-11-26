@@ -3,6 +3,8 @@
 {"at": 2, "kind": "call", "run": "north-1", "ticket": "H-18", "action": "assign", "operation": "rep18", "endpoint": "desk-drill"}
 {"at": 3, "kind": "call", "run": "south-1", "ticket": "H-18", "action": "assign", "operation": "rep18", "endpoint": "desk-drill"}
 {"at": 4, "kind": "call", "run": "north-1", "ticket": "H-19", "action": "cancel", "operation": "rep19", "endpoint": "desk-drill"}
+{"at": 4, "kind": "call", "run": "north-1", "ticket": "H-18", "action": "notify", "operation": "note18a", "endpoint": "notice-drill"}
+{"at": 4, "kind": "call", "run": "north-1", "ticket": "H-18", "action": "notify", "operation": "note18b", "endpoint": "notice-drill"}
 {"at": 5, "kind": "supersede", "incident": "live5", "supervisor": "team-lead", "scopes": ["room-a"]}
 {"at": 6, "kind": "receipt", "run": "north-1", "ticket": "H-18", "operation": "rep18", "namespace": "drill", "endpoint": "desk-drill", "state": "done"}
 {"at": 7, "kind": "receipt", "run": "north-1", "ticket": "H-19", "operation": "rep19", "namespace": "drill", "endpoint": "desk-drill", "state": "done"}
